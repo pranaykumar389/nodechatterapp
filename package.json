@@ -1,0 +1,24 @@
+{
+  "name": "node-chat-app",
+  "version": "1.0.0",
+  "description": "\"This is a Node.js Chat Application\"",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "\"Node.js\"",
+    "\"chat\"",
+    "\"App\""
+  ],
+  "engines": {
+    "node": "7.2.0",
+    "npm": "4.0.3"
+  },
+  "author": "\"Pranay Kumar\"",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}

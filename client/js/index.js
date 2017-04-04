@@ -7,6 +7,10 @@ socket.on('disconnect', function () {
     console.log('Disconnected from Server');
 });
 
+socket.on('userConnect', function (userConnect) {
+    console.log('New User', userConnect);
+});
+
 socket.on('newMessage', function (newMessage) {
     console.log('New Message', newMessage);
 });

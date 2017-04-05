@@ -3,17 +3,27 @@
     <head>
         <meta charset="utf-8">
         <title>Node.js Chat Application</title>
+        <link rel="stylesheet" href="/styles/main.css">
     </head>
-    <body>
-        <p>Welcome to Node.js Chat Application</p>
 
-        <ol id="messages"></ol>
+    <body class="chat">
+        
+        <div class="chat__sidebar">
+            <h3>Users</h3>
+            <div id="users"></div>
+        </div>
 
-        <form id="message-form">
-            <input type="text" name="message" placeholder="Enter your Message"/>
-            <button>Send</button>
-        </form>
-        <button id="send-location">Send Location</button>
+        <div class="chat__main">
+            <ol id="messages" class="chat_messages"></ol>
+
+            <div class="chat__footer">
+                <form id="message-form">
+                    <input type="text" name="message" placeholder="Enter your Message" autofocus autocomplete="off" />
+                    <button>Send</button>
+                </form>
+                <button id="send-location">Send location</button>
+            </div>
+        </div>
 
         <script src="/socket.io/socket.io.js"></script>
         <script src="/js/libs/jquery-3.2.0.min.js"></script>

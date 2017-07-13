@@ -1,5 +1,5 @@
 {
-  "name": "node-chat-app",
+  "name": "nodechatterapp",
   "version": "1.0.0",
   "description": "\"This is a Node.js Chat Application\"",
   "main": "server.js",
@@ -28,5 +28,13 @@
     "expect": "^1.20.2",
     "mocha": "^3.2.0",
     "nodemon": "^1.11.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranaykumar389/nodechatterapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pranaykumar389/nodechatterapp/issues"
+  },
+  "homepage": "https://github.com/pranaykumar389/nodechatterapp#readme"
 }
